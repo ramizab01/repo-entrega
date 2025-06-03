@@ -1,0 +1,272 @@
+body {
+    background-color: white;
+}
+
+/* header estilos */
+
+header {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 0%;
+
+}
+
+.container img {
+    height: 200px;
+    max-width: 250px;
+    width: auto;
+    border-radius: 300px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    color: #355E80;
+}
+
+
+.seccion-titulo h1 {
+    color: #355E80;
+    font-size: 70px;
+    margin-bottom: 1px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.presentacion p {
+    color: #355E80;
+    display: inline-flex;
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.titulos p {
+    color: #355E80;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.Imagenes_hub img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.Imagenes_hub {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: row;
+    text-align: center;
+    gap: 200px;
+
+}
+
+
+#presentacion {
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+
+
+
+#presentacion {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+#espejosredondos .contenedor {
+    height: 300px;
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Estilos pagina ovalados*/
+
+.ovaladostitulo {
+    text-align: center;
+}
+
+.ovaladostitulo h2 {
+    color: #355E80;
+    font-size: 50px;
+}
+
+.ovaladostitulo p {
+    font-size: 25px;
+}
+
+
+.catalogo-ovalados {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 70px;
+
+}
+
+
+.ovalado1 img {
+    height: 700px;
+    border-radius: 50px;
+}
+
+.ovalado2 img {
+    height: 700px;
+    width: 450px;
+    border-radius: 50px;
+}
+
+.ovalado3 img {
+    height: 700px;
+    border-radius: 50px;
+}
+
+/* Estilos boton exoticos*/
+.imagen_exoticos p {
+    color: #355E80;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.imagen_exoticos {
+    height: 400px;
+    background-color: white;
+}
+
+.imagen_exoticos img {
+    height: 400px;
+    width: 90%;
+    margin-top: 0px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 80px;
+    text-align: center;
+
+
+}
+
+/* Footer paginas */
+.boton-instagram {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #ea70cd;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.boton-instagram a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.boton-wsp {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #25D366;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.boton-wsp a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Responsive para celulares */
+@media (max-width: 768px) {
+    .Imagenes_hub {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .Imagenes_hub img {
+        max-width: 90%;
+        border-radius: 30px;
+    }
+
+    .seccion-titulo h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .imagen_exoticos img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+
+
+    }
+
+    .imagen_exoticos p {
+        font-size: 30px;
+
+
+
+    }
+
+    /* Responsive celular pagina ovalados */
+    .catalogo-ovalados {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .ovalado1 img {
+        display: block;
+        height: 700px;
+        width: 530px;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ovalado2 img {
+        display: block;
+        height: 700px;
+        width: 530px;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ovalado3 img {
+        display: block;
+        height: 700px;
+        width: 530px;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
